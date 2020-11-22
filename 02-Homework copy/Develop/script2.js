@@ -20,21 +20,30 @@ console.log (specialcharacters)
 
 // Write password to the #password input
 function writePassword() {
-
-
-  var verifyNC = prompt ("How many characters would you like in the password?"); 
   
-  var characterlength= parseInt(verifyNC);
-    if(characterlength<= 128 && characterlength >= 8){
-        return true;
-    }
+
+//   var verifyNC = prompt ("How many characters would you like in the password?"); 
+//   var characterlength= parseInt(verifyNC);
+//     if(characterlength<= 128 && characterlength >= 8){
+//         // return true;
+//         //add something to add combo pw
+
+//     }
+
+// var verifyLC = confirm ("anything")
+//     if (confirmLowercase) {
+        
+//     } else {
+        
+//     };
     
-    else{
-        alert("Your character length needs to be a minimum of 8 and maxmimum of 128.");
-        return false;
-    };
+//     else{
+//         alert("Your character length needs to be a minimum of 8 and maxmimum of 128.");
+//         // return false;
+//     };
 
 
+    
 
   
   
@@ -43,6 +52,31 @@ function writePassword() {
 
 
   var password = generatePassword();
+
+  var verifyNC = prompt ("How many characters would you like in the password?"); 
+  var characterlength= parseInt(verifyNC);
+    if(characterlength<= 128 && characterlength >= 8){
+        // return true;
+        //add something to add combo pw
+
+    }
+
+// var verifyLC = confirm ("anything")
+//     if (confirmLowercase) {
+        
+//     } else {
+        
+//     };
+    
+    else{
+        alert("Your character length needs to be a minimum of 8 and maxmimum of 128.");
+        // return false;
+    };
+    if (lowercase == true) {
+        var verifyLC = confirm ("anything")
+        
+    }
+
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;

@@ -1,20 +1,32 @@
 // Assignment Code
 
+
+
+
+
 var generateBtn = document.querySelector("#generate");
 
 //Variables
 
-var lowercase = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
-var uppercase
+var lowercase = ("abcdefghijklmnopqrstuvwxyz");
+// var lowercasearray = lowercase.split("");
+// console.log(lowercasearray);
+
+var uppercase = lowercase.toUpperCase();
+// var uppercasearray = uppercase.split("");
+// console.log (uppercasearray)
 
 
-// var uppercase = ()
 var numbers = math.floor(math.random() * 9)+1;
 
+console.log (numbers)
 
 
+// var passwordCombo = []
 
-// var specialcharacters= ()
+
+var specialcharacters= ("!@#$%^&*+=")
+// var specialcharactersarray = specialcharacters.split("")
 // var numberofcharacters= ()
 
 // var verifyLC = confirm("Would you like lower-case letters?")
@@ -26,18 +38,34 @@ var numbers = math.floor(math.random() * 9)+1;
 // alert("Would you like lower-case letters?" + verifyLC )
 
 
+// var submitbtn = document.querySelector('btn');
+//    button.onclick = function verifyLC() {
+//     alert("Would you like lower-case letters?");
+   
+// //    }
+
+
+
+// var random = alert("wassup")
 
 
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword(); ()
-  var passwordText = document.querySelector("#password");
 
+
+
+
+
+function writePassword() {
+
+
+
+  verifyLC= alert("Would you like lower-case letters?");
+   
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password"); 
   passwordText.value = password;
 
-
-
-
+  // var verifyLC = confirm("Would you like lower-case letters?")
 
 
 
@@ -51,7 +79,11 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);{
 
-  alert("Would you like lower-case letters?" + verifyLC )
+  
+
+
+
+  
 
 
 }

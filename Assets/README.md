@@ -51,7 +51,7 @@ The following image shows the web application's appearance and functionality:
         1. Young Ji Kim - https://github.com/youjmi
         2. Amir Ashtiany - https://github.com/Alexfit4
         3. Johnnie Simpson - https://github.com/balokdecoy
-        4. Beatrice Ellingson -
+        4. Beatrice Ellingson - https://github.com/beatricellingson
 
  For clarification feel free to reach out to Francisco Rosado, Franciscorosado09@.gmail.com
 
